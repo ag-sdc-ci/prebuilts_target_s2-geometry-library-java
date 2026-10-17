@@ -1,0 +1,30 @@
+// Auto-generated prebuilt Blueprint for external/s2-geometry-library-java
+// Extracted from Extractive APEX package: org.blisslabs.ag.ext.s2-geometry-library-java
+
+package {
+    default_visibility: ["//visibility:public"],
+    default_applicable_licenses: ["external_s2-geometry-library-java_license"],
+}
+
+license {
+    name: "external_s2-geometry-library-java_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-Apache-2.0",
+    ],
+    license_text: [
+        "LICENSE",
+    ],
+}
+
+java_import {
+    name: "s2-geometry-library-java",
+    jars: ["share/s2-geometry-library-java/s2-geometry-library-java-1.0.1.jar"],
+    host_supported: true,
+    prefer: true,
+    apex_available: [
+        "//apex_available:platform",
+        "//apex_available:anyapex",
+        "com.android.geotz",
+    ],
+}

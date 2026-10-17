@@ -1,0 +1,11 @@
+{
+	"provideLibs": [	
+		    "libdummy_ext_s2_geometry_library_java-x86_64-v2.so",
+		    "libdummy_ext_s2_geometry_library_java.so",
+		    "libdummy_shared_s2-geometry-library-java-x86_64-v2.so",
+		    "libdummy_shared_s2-geometry-library-java.so",
+		    "libdummy_shared_s2_geometry_library_java-x86_64-v2.so",
+		    "libdummy_shared_s2_geometry_library_java.so"
+	],
+	"visible": true
+}
